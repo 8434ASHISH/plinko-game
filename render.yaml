@@ -1,0 +1,10 @@
+﻿services:
+  - type: web
+    name: plinko-backend
+    runtime: node
+    repo: https://github.com/8434ASHISH/plinko-game
+    plan: free
+    region: ohio
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
